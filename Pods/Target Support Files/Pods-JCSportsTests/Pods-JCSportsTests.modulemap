@@ -1,0 +1,6 @@
+framework module Pods_JCSportsTests {
+  umbrella header "Pods-JCSportsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

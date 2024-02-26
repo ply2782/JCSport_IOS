@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E399C24B56538C6823FF825 /* Pods_JCSports.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D041F55EFEF15ADA4A8EAA /* Pods_JCSports.framework */; };
+		71D3CDE484FC1F164EB5ECE0 /* Pods_JCSports_JCSportsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CB58006D489F41DED32F46 /* Pods_JCSports_JCSportsUITests.framework */; };
+		BD1703EC294A119500C6BFB2 /* PhoneAuthenticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1703EB294A119500C6BFB2 /* PhoneAuthenticViewController.swift */; };
+		BD2F54AC294857410039A421 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2F54AB294857410039A421 /* LoginViewController.swift */; };
+		BD2F54AE29486E070039A421 /* ClickAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2F54AD29486E070039A421 /* ClickAnimation.swift */; };
+		BD5791262972C177008C6018 /* CommonStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5791252972C177008C6018 /* CommonStatic.swift */; };
+		BD96317E2973D2F5001E10DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD96317D2973D2F5001E10DF /* GoogleService-Info.plist */; };
+		BD9A7351297C4A5700E70BB0 /* CustomTabGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A7350297C4A5700E70BB0 /* CustomTabGesture.swift */; };
+		BD9C1979293CF8F100360CED /* ExtensionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C1978293CF8F100360CED /* ExtensionModel.swift */; };
+		BDA1FEFB2947624C003CE0DA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1FEFA2947624C003CE0DA /* CardView.swift */; };
+		BDA1FEFF29476566003CE0DA /* AgreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1FEFE29476566003CE0DA /* AgreeViewController.swift */; };
+		BDB20AD0297D6D76003E355E /* LoginFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB20ACF297D6D76003E355E /* LoginFunctions.swift */; };
+		BDB20AD2297D6FDA003E355E /* SignUpFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB20AD1297D6FDA003E355E /* SignUpFunctions.swift */; };
+		BDBA9D46297D28A200FA6033 /* AgreeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBA9D45297D28A200FA6033 /* AgreeFunctions.swift */; };
 		BDBBAFF6292B765900F03CC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAFF5292B765900F03CC4 /* AppDelegate.swift */; };
 		BDBBAFF8292B765900F03CC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAFF7292B765900F03CC4 /* SceneDelegate.swift */; };
-		BDBBAFFA292B765900F03CC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAFF9292B765900F03CC4 /* ViewController.swift */; };
 		BDBBAFFD292B765900F03CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBBAFFB292B765900F03CC4 /* Main.storyboard */; };
 		BDBBAFFF292B765C00F03CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBBAFFE292B765C00F03CC4 /* Assets.xcassets */; };
 		BDBBB002292B765C00F03CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBBB000292B765C00F03CC4 /* LaunchScreen.storyboard */; };
 		BDBBB00D292B765D00F03CC4 /* JCSportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB00C292B765D00F03CC4 /* JCSportsTests.swift */; };
 		BDBBB017292B765D00F03CC4 /* JCSportsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB016292B765D00F03CC4 /* JCSportsUITests.swift */; };
 		BDBBB019292B765D00F03CC4 /* JCSportsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB018292B765D00F03CC4 /* JCSportsUITestsLaunchTests.swift */; };
+		BDC1FB722948A2A000A6E25C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC1FB712948A2A000A6E25C /* UserModel.swift */; };
+		BDC6410E296C61C500E2198E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6410D296C61C500E2198E /* SignUpViewController.swift */; };
+		BDCC3A61297BDE29001EDBB2 /* PhoneAuthenticFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC3A60297BDE29001EDBB2 /* PhoneAuthenticFunctions.swift */; };
+		BFC655F3DCCA6A3D7A12F77C /* Pods_JCSportsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8303D2B6C3A7BD325B8C6E1 /* Pods_JCSportsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +53,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10CB58006D489F41DED32F46 /* Pods_JCSports_JCSportsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCSports_JCSportsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C333F3B7A264A4552A2D9E /* Pods-JCSportsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCSportsTests.release.xcconfig"; path = "Target Support Files/Pods-JCSportsTests/Pods-JCSportsTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FBA95E872F4BD59BBB20719 /* Pods-JCSports-JCSportsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCSports-JCSportsUITests.release.xcconfig"; path = "Target Support Files/Pods-JCSports-JCSportsUITests/Pods-JCSports-JCSportsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		538853875216739773EA9FB4 /* Pods-JCSports.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCSports.debug.xcconfig"; path = "Target Support Files/Pods-JCSports/Pods-JCSports.debug.xcconfig"; sourceTree = "<group>"; };
+		68D041F55EFEF15ADA4A8EAA /* Pods_JCSports.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCSports.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6B8E5001504C7D16C4021F /* Pods-JCSportsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCSportsTests.debug.xcconfig"; path = "Target Support Files/Pods-JCSportsTests/Pods-JCSportsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACA7820151BCED43E0A14446 /* Pods-JCSports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCSports.release.xcconfig"; path = "Target Support Files/Pods-JCSports/Pods-JCSports.release.xcconfig"; sourceTree = "<group>"; };
+		BA5DF9E82EE7674640A875DC /* Pods-JCSports-JCSportsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCSports-JCSportsUITests.debug.xcconfig"; path = "Target Support Files/Pods-JCSports-JCSportsUITests/Pods-JCSports-JCSportsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD1703EB294A119500C6BFB2 /* PhoneAuthenticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthenticViewController.swift; sourceTree = "<group>"; };
+		BD2F54AB294857410039A421 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BD2F54AD29486E070039A421 /* ClickAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickAnimation.swift; sourceTree = "<group>"; };
+		BD2F54AF2948777F0039A421 /* JCSports.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JCSports.entitlements; sourceTree = "<group>"; };
+		BD5791252972C177008C6018 /* CommonStatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStatic.swift; sourceTree = "<group>"; };
+		BD96317D2973D2F5001E10DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD9A7350297C4A5700E70BB0 /* CustomTabGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabGesture.swift; sourceTree = "<group>"; };
+		BD9C1978293CF8F100360CED /* ExtensionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionModel.swift; sourceTree = "<group>"; };
+		BDA1FEFA2947624C003CE0DA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BDA1FEFE29476566003CE0DA /* AgreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeViewController.swift; sourceTree = "<group>"; };
+		BDB20ACF297D6D76003E355E /* LoginFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFunctions.swift; sourceTree = "<group>"; };
+		BDB20AD1297D6FDA003E355E /* SignUpFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFunctions.swift; sourceTree = "<group>"; };
+		BDBA9D45297D28A200FA6033 /* AgreeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeFunctions.swift; sourceTree = "<group>"; };
 		BDBBAFF2292B765900F03CC4 /* JCSports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCSports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBBAFF5292B765900F03CC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDBBAFF7292B765900F03CC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDBBAFF9292B765900F03CC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BDBBAFFC292B765900F03CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDBBAFFE292B765C00F03CC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDBBB001292B765C00F03CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +86,10 @@
 		BDBBB012292B765D00F03CC4 /* JCSportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCSportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBBB016292B765D00F03CC4 /* JCSportsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCSportsUITests.swift; sourceTree = "<group>"; };
 		BDBBB018292B765D00F03CC4 /* JCSportsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCSportsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDC1FB712948A2A000A6E25C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BDC6410D296C61C500E2198E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BDCC3A60297BDE29001EDBB2 /* PhoneAuthenticFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthenticFunctions.swift; sourceTree = "<group>"; };
+		D8303D2B6C3A7BD325B8C6E1 /* Pods_JCSportsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCSportsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E399C24B56538C6823FF825 /* Pods_JCSports.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC655F3DCCA6A3D7A12F77C /* Pods_JCSportsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +113,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D3CDE484FC1F164EB5ECE0 /* Pods_JCSports_JCSportsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CBEF9DACA1BF1861B915B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68D041F55EFEF15ADA4A8EAA /* Pods_JCSports.framework */,
+				10CB58006D489F41DED32F46 /* Pods_JCSports_JCSportsUITests.framework */,
+				D8303D2B6C3A7BD325B8C6E1 /* Pods_JCSportsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A7789A4BC216FD55F0CB69F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				538853875216739773EA9FB4 /* Pods-JCSports.debug.xcconfig */,
+				ACA7820151BCED43E0A14446 /* Pods-JCSports.release.xcconfig */,
+				BA5DF9E82EE7674640A875DC /* Pods-JCSports-JCSportsUITests.debug.xcconfig */,
+				2FBA95E872F4BD59BBB20719 /* Pods-JCSports-JCSportsUITests.release.xcconfig */,
+				6C6B8E5001504C7D16C4021F /* Pods-JCSportsTests.debug.xcconfig */,
+				19C333F3B7A264A4552A2D9E /* Pods-JCSportsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD9A734F297C4A3C00E70BB0 /* CustomTabGesture */ = {
+			isa = PBXGroup;
+			children = (
+				BD9A7350297C4A5700E70BB0 /* CustomTabGesture.swift */,
+			);
+			path = CustomTabGesture;
+			sourceTree = "<group>";
+		};
+		BDA1FEF929476234003CE0DA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BDA1FEFA2947624C003CE0DA /* CardView.swift */,
+				BD2F54AD29486E070039A421 /* ClickAnimation.swift */,
+				BD5791252972C177008C6018 /* CommonStatic.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BDA1FEFC29476268003CE0DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BD9C1978293CF8F100360CED /* ExtensionModel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BDA1FEFD2947654F003CE0DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDCC3A5F297BD1AB001EDBB2 /* SignUp */,
+				BDCC3A5E297BD196001EDBB2 /* Auth */,
+				BDCC3A5D297BD169001EDBB2 /* Login */,
+				BDCC3A5C297BD0EE001EDBB2 /* Agree */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		BDBBAFE9292B765800F03CC4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +187,8 @@
 				BDBBB00B292B765D00F03CC4 /* JCSportsTests */,
 				BDBBB015292B765D00F03CC4 /* JCSportsUITests */,
 				BDBBAFF3292B765900F03CC4 /* Products */,
+				8A7789A4BC216FD55F0CB69F /* Pods */,
+				1CBEF9DACA1BF1861B915B29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +205,16 @@
 		BDBBAFF4292B765900F03CC4 /* JCSports */ = {
 			isa = PBXGroup;
 			children = (
+				BD9A734F297C4A3C00E70BB0 /* CustomTabGesture */,
+				BD96317D2973D2F5001E10DF /* GoogleService-Info.plist */,
+				BDC6410C296C5F1400E2198E /* Lottie */,
+				BDC1FB702948A28900A6E25C /* Model */,
+				BD2F54AF2948777F0039A421 /* JCSports.entitlements */,
+				BDA1FEFD2947654F003CE0DA /* Controller */,
+				BDA1FEFC29476268003CE0DA /* Extensions */,
+				BDA1FEF929476234003CE0DA /* Utils */,
 				BDBBAFF5292B765900F03CC4 /* AppDelegate.swift */,
 				BDBBAFF7292B765900F03CC4 /* SceneDelegate.swift */,
-				BDBBAFF9292B765900F03CC4 /* ViewController.swift */,
 				BDBBAFFB292B765900F03CC4 /* Main.storyboard */,
 				BDBBAFFE292B765C00F03CC4 /* Assets.xcassets */,
 				BDBBB000292B765C00F03CC4 /* LaunchScreen.storyboard */,
@@ -127,6 +240,57 @@
 			path = JCSportsUITests;
 			sourceTree = "<group>";
 		};
+		BDC1FB702948A28900A6E25C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDC1FB712948A2A000A6E25C /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDC6410C296C5F1400E2198E /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		BDCC3A5C297BD0EE001EDBB2 /* Agree */ = {
+			isa = PBXGroup;
+			children = (
+				BDA1FEFE29476566003CE0DA /* AgreeViewController.swift */,
+				BDBA9D45297D28A200FA6033 /* AgreeFunctions.swift */,
+			);
+			path = Agree;
+			sourceTree = "<group>";
+		};
+		BDCC3A5D297BD169001EDBB2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BD2F54AB294857410039A421 /* LoginViewController.swift */,
+				BDB20ACF297D6D76003E355E /* LoginFunctions.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BDCC3A5E297BD196001EDBB2 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				BD1703EB294A119500C6BFB2 /* PhoneAuthenticViewController.swift */,
+				BDCC3A60297BDE29001EDBB2 /* PhoneAuthenticFunctions.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		BDCC3A5F297BD1AB001EDBB2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				BDC6410D296C61C500E2198E /* SignUpViewController.swift */,
+				BDB20AD1297D6FDA003E355E /* SignUpFunctions.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +298,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDBBB01C292B765D00F03CC4 /* Build configuration list for PBXNativeTarget "JCSports" */;
 			buildPhases = (
+				C0BF05FDA77E5830EE7759A2 /* [CP] Check Pods Manifest.lock */,
 				BDBBAFEE292B765900F03CC4 /* Sources */,
 				BDBBAFEF292B765900F03CC4 /* Frameworks */,
 				BDBBAFF0292B765900F03CC4 /* Resources */,
+				163D170D91BAABD7588D6CEC /* [CP] Embed Pods Frameworks */,
+				BD92A703297402940026EF93 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -151,6 +318,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDBBB01F292B765D00F03CC4 /* Build configuration list for PBXNativeTarget "JCSportsTests" */;
 			buildPhases = (
+				95403B82775947F5645F530E /* [CP] Check Pods Manifest.lock */,
 				BDBBB004292B765D00F03CC4 /* Sources */,
 				BDBBB005292B765D00F03CC4 /* Frameworks */,
 				BDBBB006292B765D00F03CC4 /* Resources */,
@@ -169,9 +337,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDBBB022292B765D00F03CC4 /* Build configuration list for PBXNativeTarget "JCSportsUITests" */;
 			buildPhases = (
+				C02EB691102F423D115697F1 /* [CP] Check Pods Manifest.lock */,
 				BDBBB00E292B765D00F03CC4 /* Sources */,
 				BDBBB00F292B765D00F03CC4 /* Frameworks */,
 				BDBBB010292B765D00F03CC4 /* Resources */,
+				9088070C46354DEDE9A4CE97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBBB002292B765C00F03CC4 /* LaunchScreen.storyboard in Resources */,
+				BD96317E2973D2F5001E10DF /* GoogleService-Info.plist in Resources */,
 				BDBBAFFF292B765C00F03CC4 /* Assets.xcassets in Resources */,
 				BDBBAFFD292B765900F03CC4 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +424,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		163D170D91BAABD7588D6CEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JCSports/Pods-JCSports-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JCSports/Pods-JCSports-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JCSports/Pods-JCSports-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9088070C46354DEDE9A4CE97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JCSports-JCSportsUITests/Pods-JCSports-JCSportsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JCSports-JCSportsUITests/Pods-JCSports-JCSportsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JCSports-JCSportsUITests/Pods-JCSports-JCSportsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95403B82775947F5645F530E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JCSportsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD92A703297402940026EF93 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		C02EB691102F423D115697F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JCSports-JCSportsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0BF05FDA77E5830EE7759A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JCSports-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDBBAFEE292B765900F03CC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDBBAFFA292B765900F03CC4 /* ViewController.swift in Sources */,
+				BD2F54AC294857410039A421 /* LoginViewController.swift in Sources */,
+				BD9C1979293CF8F100360CED /* ExtensionModel.swift in Sources */,
+				BDC1FB722948A2A000A6E25C /* UserModel.swift in Sources */,
 				BDBBAFF6292B765900F03CC4 /* AppDelegate.swift in Sources */,
+				BD5791262972C177008C6018 /* CommonStatic.swift in Sources */,
+				BDC6410E296C61C500E2198E /* SignUpViewController.swift in Sources */,
+				BDBA9D46297D28A200FA6033 /* AgreeFunctions.swift in Sources */,
+				BD1703EC294A119500C6BFB2 /* PhoneAuthenticViewController.swift in Sources */,
+				BD9A7351297C4A5700E70BB0 /* CustomTabGesture.swift in Sources */,
+				BD2F54AE29486E070039A421 /* ClickAnimation.swift in Sources */,
+				BDCC3A61297BDE29001EDBB2 /* PhoneAuthenticFunctions.swift in Sources */,
 				BDBBAFF8292B765900F03CC4 /* SceneDelegate.swift in Sources */,
+				BDA1FEFB2947624C003CE0DA /* CardView.swift in Sources */,
+				BDA1FEFF29476566003CE0DA /* AgreeViewController.swift in Sources */,
+				BDB20AD0297D6D76003E355E /* LoginFunctions.swift in Sources */,
+				BDB20AD2297D6FDA003E355E /* SignUpFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +656,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -410,6 +717,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -432,18 +740,39 @@
 		};
 		BDBBB01D292B765D00F03CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538853875216739773EA9FB4 /* Pods-JCSports.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JCSports/JCSports.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 658FJVJFSH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JCSports/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JCSports;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "‘JCSports’에서 음악 권한을 요청합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "‘JCSports’에서 대화를 위한 블루투스 권한을 요청합니다.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "‘JCSports’에서 대화를 위한 블루투스 권한을 요청합니다.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "‘JCSports’에서 날짜 확인을 위해 달력 권한을 요청합니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "‘JCSports’에서 유저의 프로필사진 등록,게시물 작성 등을 위해 카메라 권한을 요청합니다";
+				INFOPLIST_KEY_NSContactsUsageDescription = "'JCSports'에서 주소록에 등록된 유저를 차단하기 위해 주소록정보를 요청합니다.";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "파일 접근 권한을 사용합니다";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치기능 사용시 사용자의 현재 위치를 포함하기 위한 위치 권한 요청";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "‘JCSports’에서 유저의 게시물 작성을 위해 마이크 권한을 요청합니다";
+				INFOPLIST_KEY_NSMotionUsageDescription = "‘JCSports’에서 모션을 위한 권한을 요청합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "‘JCSports’에서 유저의 프로필사진 등록,게시물 작성 등을 위해 앨범권한을 요청합니다";
+				INFOPLIST_KEY_NSSiriUsageDescription = "‘JCSports’에서 시리 권한을 요청합니다.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "‘JCSports’에서 음성인식 권한을 요청합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be allowed to permission of tracking this app ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,18 +789,38 @@
 		};
 		BDBBB01E292B765D00F03CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA7820151BCED43E0A14446 /* Pods-JCSports.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JCSports/JCSports.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 658FJVJFSH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JCSports/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JCSports;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "‘JCSports’에서 음악 권한을 요청합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "‘JCSports’에서 대화를 위한 블루투스 권한을 요청합니다.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "‘JCSports’에서 대화를 위한 블루투스 권한을 요청합니다.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "‘JCSports’에서 날짜 확인을 위해 달력 권한을 요청합니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "‘JCSports’에서 유저의 프로필사진 등록,게시물 작성 등을 위해 카메라 권한을 요청합니다";
+				INFOPLIST_KEY_NSContactsUsageDescription = "'JCSports'에서 주소록에 등록된 유저를 차단하기 위해 주소록정보를 요청합니다.";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "파일 접근 권한을 사용합니다";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치기능 사용시 사용자의 현재 위치를 포함하기 위한 위치 권한 요청";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "‘JCSports’에서 유저의 게시물 작성을 위해 마이크 권한을 요청합니다";
+				INFOPLIST_KEY_NSMotionUsageDescription = "‘JCSports’에서 모션을 위한 권한을 요청합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "‘JCSports’에서 유저의 프로필사진 등록,게시물 작성 등을 위해 앨범권한을 요청합니다";
+				INFOPLIST_KEY_NSSiriUsageDescription = "‘JCSports’에서 시리 권한을 요청합니다.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "‘JCSports’에서 음성인식 권한을 요청합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be allowed to permission of tracking this app ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,6 +837,7 @@
 		};
 		BDBBB020292B765D00F03CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6B8E5001504C7D16C4021F /* Pods-JCSportsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +858,7 @@
 		};
 		BDBBB021292B765D00F03CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C333F3B7A264A4552A2D9E /* Pods-JCSportsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +879,7 @@
 		};
 		BDBBB023292B765D00F03CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA5DF9E82EE7674640A875DC /* Pods-JCSports-JCSportsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +898,7 @@
 		};
 		BDBBB024292B765D00F03CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBA95E872F4BD59BBB20719 /* Pods-JCSports-JCSportsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
